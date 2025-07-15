@@ -1,0 +1,134 @@
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
+
+/* Estilos para un enlace no visitado */
+a:link {
+    color: blue;
+    text-decoration: underline;
+    }
+
+/* Estilos para un enlace que ya han sido visitado */
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color:black;
+    color: #ccc
+}
+
+.logotipo{       
+    font-size: 42px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logotipo-texto{    
+    vertical-align: middle;
+}
+
+/*2.-Regla de estilo semantica*/
+nav{
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 20px;
+    color: #fff;    
+}
+
+  /* Pseudoelemento before */
+  p::before {
+    content: " * ";
+    font-weight: bold;
+  }
+  
+  /* Pseudoelemento after */
+  p::after {
+    content: " * ";
+    font-weight: bold;
+  }
+
+/*Regla de estilo semantica*/
+footer{
+    text-align: center;
+    color: #fff;
+    z-index: 9999;
+}
+	/* Estilos para el aviso de cookies */
+    .cookie-notice {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        padding: 5px;
+        box-sizing: border-box;
+        z-index: 9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .cookie-notice__text {
+        margin: 5px auto;
+        width: 80%;
+        text-align: justify;
+    }
+
+    .cookie-notice__button {
+        background-color: #fff;
+        color: #333;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .cookie-notice:out{    
+        display:none;
+    } 
+
+    #horario {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        max-width: 700px;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgb(79, 79, 150);
+      }
+      
+      .sixColumns {
+        width: 700px;
+        background-color:  rgb(3, 3, 3);
+        margin: 10px;
+
+      }
+      .sixColumns > div {
+        width: 150px;
+        height: 15px;
+        background-color: rgb(3, 3, 3);
+        margin: 10px;
+        position: relative;
+      }
+
+      .menuFlotante{
+        position: fixed;
+        z-index: 100; 
+        margin-left:80%; 
+        background-color: rgb(58, 59, 59);
+        border: solid 1px blue;
+        width: 200px;
+      }

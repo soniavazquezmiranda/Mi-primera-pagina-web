@@ -1,0 +1,83 @@
+/* Estilos para un enlace no visitado */
+a:link {
+    color: blue;
+    text-decoration: underline;
+    }
+
+/* Estilos para un enlace que ya han sido visitado */
+a:visited {
+    color: purple;
+    text-decoration: none;
+    }
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color:black;
+    color: #ccc
+}
+
+.logotipo{       
+    font-size: 42px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logotipo-texto{    
+    vertical-align: middle;
+}
+
+/*2.-Regla de estilo semantica*/
+nav{
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 20px;
+    color: #fff;    
+}
+    
+/* Estilos para un elemento cuando está en foco */
+input:focus {
+    background-color: lightblue;
+  }
+
+  /* Pseudoelemento before */
+p::before {
+    content: " * ";
+    font-weight: bold;
+  }
+  
+  /* Pseudoelemento after */
+  p::after {
+    content: " * ";
+    font-weight: bold;
+  }
+  
+#formulario1 *:required{
+    border-color: red;
+    bottom:background-color#007bff;
+}
+
+#formulario2 input[type=text]{
+    color: green;
+    font-weight: bold;
+
+}
+
+
+#formulario1{
+    background-color: rgb(79, 79, 150);
+  }
+
+
+
+
+  #formulario2{
+    background-color: rgb(79, 79, 150);
+  }
+
+/*Regla de estilo semantica*/
+
+    footer{
+        text-align: center;
+        color: #fff;
+    }

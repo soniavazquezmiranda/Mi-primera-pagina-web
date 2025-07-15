@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color:black;
+    color: #ccc
+}
+.logotipo{       
+    font-size: 100;
+    text-align: center;
+    padding: 10px;
+}
+.logotipo-texto{    
+    vertical-align: middle;
+}
+nav{
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 20px;
+    color: #fff;    
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+}

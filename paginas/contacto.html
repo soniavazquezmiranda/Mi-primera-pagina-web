@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="SoundTrack"/>
+        <title>Candlelight Concert</title>
+        <link rel="stylesheet" href="../css/contacto.css">
+    </head>
+<body>
+    <header>
+        <div align="center" class="logotipo">          
+            <span><img src="../imagenes/Candlelight/logotipo2.jpg" width="300px"> </span>             
+            <span class="logotipo-texto">Candlelight Concert</span>
+        </div>
+        <nav>
+            <a href="inicio.html">Inicio</a> - 
+            <a href="contacto.html">Contacto</a> - 
+            <a href="donde-estamos.html">Dónde estamos</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <p>Reserve con nosotros tendr&aacutes una experiencia inolvidable <b> es como estar en el para&iacuteso;</b>
+            <fieldset>
+                <legend>Formulario 1 - Datos de Contacto</legend>
+                <form action="destino1.jsp" method="post" id="formulario1">
+                    <label for="name" minlength="0" maxlength="15">Name</label>
+                    <input type="text" id="name" placeholder="Escribe tu nombre aqu&iacute; size="30" maxlength ="20" required/> 
+                    <br><br>
+
+                    <label for="text">Apellidos</label>
+                    <input type="text" name="Apellidos" size="40" maxlength="35" required>
+                    <br><br>
+                    <label for="telefono">telefono</label>
+                    <input type="tel" name="tel_control">
+                    <br><br>
+                    <label for="datetime-local">Fecha</label>
+                    <input type="datetime-local"id= "Fecha" />
+                    <br><br>
+                    <label for="Correo Electronico">Correo electonico</label>
+                    <input type="email" name="email_control" size="40" maxlength="35"required >
+                    <br><br>                   
+                    <label for="comentarios">Comentarios</label>
+                    <textarea nombre="comentarios"id="comentarios"cols="30"row="10"></textarea>
+                    
+                    <br><br>
+                    <label for="SoundTrack">Selector</label>
+                    <select name="SoundTrack"size="4"multiple>
+                        <option value="1">El Padrino</option>
+                        <option value="2">Piratas del Caribe</option>
+                        <option value="3">El Señor de los anillos</option>
+                        <option value="4">Titanic</option>
+                        <option value="5">El ultimo Mohicano</option>
+                        </select>
+                        <br><br>
+                        <label for="opinion">Opinion</label>
+                        <textarea nombre="opinion"id="opinion"cols="30"row="10"></textarea>
+                        <br><br>
+                        <label for="button">Archivo</label>
+                        <input type="file" name="Archivo">  
+                        <br><br>
+                        <label for="button">Valoración</label>
+                        <input type="range" id="Porcentaje" name="Porcentaje" min="0" max="100">
+                        <br><br>
+                        <label for="check">De acuerdo con los términos</label>
+                        <input type="checkbox" id="check" />
+                        <br><br>
+                        <br><br>                    
+                        <input type="button" value="Enviar">  
+                </form>             
+        </fieldset>          
+        <fieldset>
+            <legend>Formulario 2 - Datos de Contacto</legend>
+        <form action="destino2.jsp" method="get" id="formulario2">
+                <label for="name" minlength="0" maxlength="15">Name</label>
+                <input type="text" id="name" placeholder="Escribe tu nombre aqu&iacute; size="30" maxlength ="20" required/> 
+                <br><br>
+
+                <label for="text">Apellidos</label>
+                <input type="text" name="Apellidos" size="40" maxlength="35" required>
+                 <br><br>
+                 <label for="telefono">telefono</label>
+                 <input type="tel" name="tel_control">
+                 <br><br>
+                <label for="datetime-local">Fecha</label>
+                <input type="datetime-local"id= "Fecha" />
+                <br><br>
+                 <label for="Correo Electronico">Correo electonico</label>
+                <input type="email" name="email_control" size="40" maxlength="35"required >
+                <br><br>                   
+                 <label for="comentarios">Comentarios</label>
+                 <textarea nombre="comentarios"id="comentarios"cols="30"row="10"></textarea>
+                
+                  <br><br>
+                  <label for="SoundTrack">Selector</label>
+                  <select name="SoundTrack"size="4"multiple>
+                    <option value="1">El Padrino</option>
+                    <option value="2">Piratas del Caribe</option>
+                    <option value="3">El Señor de los anillos</option>
+                    <option value="4">Titanic</option>
+                    <option value="5">El ultimo Mohicano</option>
+                    </select>
+                    <br><br>
+                    <label for="opinion">Opinion</label>
+                    <textarea nombre="opinion"id="opinion"cols="30"row="10"></textarea>
+                    <br><br>
+                    <label for="button">Archivo</label>
+                    <input type="file" name="Archivo">  
+                    <br><br>
+                    <label for="button">Valoración</label>
+                    <input type="range" id="Porcentaje" name="Porcentaje" min="0" max="100">
+                    <br><br>
+                    <label for="check">De acuerdo con los términos</label>
+                    <input type="checkbox" id="check" />
+                    <br><br>
+                    <br><br>                    
+                    <input type="button" value="Enviar">  
+        </form>             
+    </fieldset>          
+      </main>
+      <footer>
+        <p>&copy2023  -Sevilla Center- <a href="mailto:sevillacenter@gmail.com">sevillacenter&#64gmail.com</a></p>
+      </footer>
+</body>
+</html>

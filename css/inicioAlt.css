@@ -1,0 +1,70 @@
+/*1.-Reglas de estilo de Flexbox */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+    background-color:black;
+    padding: 50px;
+}
+
+/* Estilos para un enlace no visitado */
+a:link {
+    color: white;
+    text-decoration: underline;
+    }
+
+/* Estilos para un enlace que ya han sido visitado */
+a:visited {
+    color: red;
+    text-decoration: none;
+  }
+
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color:chocolate;
+    color: #ccc
+}
+
+
+.logotipo{       
+    font-size: 42px;
+    text-align: center;
+    padding: 10px;
+}
+
+.logotipo-texto{    
+    vertical-align: middle;
+}
+
+/*2.-Regla de estilo semantica*/
+nav{
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 20px;
+    color: #fff;    
+}
+
+  /* Pseudoelemento before */
+  p::before {
+    content: " * ";
+    font-weight: bold;
+  }
+  
+  /* Pseudoelemento after */
+  p::after {
+    content: " * ";
+    font-weight: bold;
+  }
+
+/*Regla de estilo semantica*/
+
+footer{
+    text-align: center;
+    color: #fff;
+}
